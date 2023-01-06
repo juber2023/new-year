@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 /* banner style */
 .banner {
@@ -74,31 +74,70 @@ font-family: 'Work Sans', sans-serif;
   font-size: 45px;
   color: #151414;
 }
-.plan-container{
-    width: 1300px;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
+.plan-container {
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
 }
-.plan-subject{
-    font-weight: 700;
-font-size: 30px;
-margin-top: 30px;
-margin-bottom: 16px;
+.plan-subject {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 16px;
 }
-.plan-item{
-    text-align: center;
+.plan-item {
+  text-align: center;
 }
-.mindset{
-    margin: 150px 400px;
-    background-image: url('image/gradient1.png');
-    background-repeat: no-repeat;
+.mindset {
+  margin: 150px 400px;
+  background-image: url("image/gradient1.png");
+  background-repeat: no-repeat;
 }
-.watch{
-    mix-blend-mode: soft-light;
+.watch {
+  mix-blend-mode: soft-light;
 }
 /* .mindset-text{
     position: absolute;
     top: 20;
 } */
 
+.footer-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #151414;
+  color: #f8f8f8;
+  padding: 100px 0;
+}
+.future {
+  width: 500px;
+}
+.future-description {
+  margin: 20px 0;
+}
+.phone {
+  margin: 25px 0;
+}
+.email-input{
+  width: 325px;
+  height: 64px;
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #151414 ;
+  border-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.btn-subscribe {
+  display: block;
+  width: 170px;
+  height: 60px;
+  background: #005fac;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}

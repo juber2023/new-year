@@ -89,4 +89,16 @@ margin-bottom: 16px;
 .plan-item{
     text-align: center;
 }
+.mindset{
+    margin: 150px 400px;
+    background-image: url('image/gradient1.png');
+    background-repeat: no-repeat;
+}
+.watch{
+    mix-blend-mode: soft-light;
+}
+/* .mindset-text{
+    position: absolute;
+    top: 20;
+} */
 

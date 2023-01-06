@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 /* banner style */
 .banner {
@@ -64,3 +65,28 @@
   list-style-image: url("image/icons/done.png");
   list-style-position: inside;
 }
+/* plan style */
+.plan-title {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  color: #151414;
+}
+.plan-container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.plan-subject{
+    font-weight: 700;
+font-size: 30px;
+margin-top: 30px;
+margin-bottom: 16px;
+}
+.plan-item{
+    text-align: center;
+}
+

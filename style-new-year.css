@@ -60,10 +60,14 @@
 .person-description {
   margin-top: 35px;
   margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .person-descripton-list {
   list-style-image: url("image/icons/done.png");
   list-style-position: inside;
+  font-weight: 400;
+  font-size: 18px;
 }
 /* plan style */
 .plan-title {
@@ -97,11 +101,7 @@
 .watch {
   mix-blend-mode: soft-light;
 }
-/* .mindset-text{
-    position: absolute;
-    top: 20;
-} */
-
+/* footer style */
 .footer-section {
   width: 100%;
   display: flex;
@@ -119,17 +119,20 @@
 .phone {
   margin: 25px 0;
 }
-.email-input{
+.email-input {
   width: 325px;
   height: 64px;
-  color: #f3f3f3;
-  font-weight: 400;
-  font-size: 18px;
-  background-color: #151414 ;
+  background-color: #151414;
   border-color: #ffffff;
   border-radius: 8px;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  padding-left: 20px;
 }
 .btn-subscribe {
   display: block;

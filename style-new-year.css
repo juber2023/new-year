@@ -15,8 +15,9 @@
 .banner-txt {
   width: 500px;
   text-align: end;
-  padding-top: 300px;
-  padding-left: 1200px;
+  /* padding-top: 300px;
+  padding-left: 1200px; */
+  padding: 230px 230px 350px 1200px;
 }
 .banner-title {
   font-weight: 700;
@@ -94,12 +95,22 @@
   text-align: center;
 }
 .mindset {
-  margin: 150px 400px;
-  background-image: url("image/gradient1.png");
+  width: 1140px;
+  height: 300px;
+  margin: 150px auto;
+
+  background-image: url("image/watch.png");
   background-repeat: no-repeat;
 }
-.watch {
-  mix-blend-mode: soft-light;
+.mindset-text {
+  position: absolute;
+  color: #f8f8f8;
+  width: 450px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.gradiant {
+  mix-blend-mode: hard-light;
 }
 /* footer style */
 .footer-section {
